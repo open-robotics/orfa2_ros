@@ -1,0 +1,15 @@
+<package>
+  <description brief="orfa2_msgs">
+
+     orfa2_msgs
+
+  </description>
+  <author>Vladimir Ermakov</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/orfa2_msgs</url>
+  <depend package="std_msgs"/>
+
+</package>
+
+

@@ -1,0 +1,9 @@
+<stack>
+  <description brief="orfa2">orfa2</description>
+  <author>Maintained by Vladimir Ermakov</author>
+  <license>BSD</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/orfa2</url>
+  <depend stack="ros" />
+
+</stack>
