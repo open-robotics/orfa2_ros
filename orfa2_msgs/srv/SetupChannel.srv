@@ -4,5 +4,6 @@ uint8 ANALOG_IN = 2
 
 uint8 pin
 uint8 type
+uint16 rate_ms
 ---
 bool result
