@@ -1,0 +1,11 @@
+uint8 MODE_PWM = 0
+uint8 MODE_SPEED = 1
+
+uint8 channel
+uint8 mode
+uint8 encoder
+int32 kp
+int32 ki
+int32 kd
+---
+bool result
