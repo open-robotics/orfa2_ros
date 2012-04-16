@@ -1,0 +1,18 @@
+<package>
+  <description brief="hrover_teleop">
+
+     hrover_teleop
+
+  </description>
+  <author>Vladimir Ermakov</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/hrover_teleop</url>
+
+  <depend package="rospy"/>
+  <depend package="sensor_msgs"/>
+  <depend package="orfa2_msgs"/>
+
+</package>
+
+
