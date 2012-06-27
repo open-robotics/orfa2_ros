@@ -13,8 +13,8 @@ def main():
     def joy_cb(j):
         m = Motor()
         m.header.stamp = rospy.Time.now()
-        m.speed[0] = int(j.axes[1] * 1000)
-        m.speed[1] = int(j.axes[4] * 1000)
+        m.value[0] = int(j.axes[1] * 1000)
+        m.value[1] = int(j.axes[4] * 1000)
         pub.publish(m)
 
     rospy.Subscriber('joy', Joy, joy_cb)
