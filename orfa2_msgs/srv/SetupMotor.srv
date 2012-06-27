@@ -1,11 +1,13 @@
-uint8 MODE_PWM = 0
-uint8 MODE_SPEED = 1
+uint8 MODE_OPEN_LOOP = 0
+uint8 MODE_POSITION_CONTROL = 1
+uint8 MODE_SPEED_CONTROL = 2
 
 uint8 channel
 uint8 mode
 uint8 encoder
-int32 kp
-int32 ki
-int32 kd
+float32 kp
+float32 ki
+float32 kd
+duration timeout
 ---
 bool result
